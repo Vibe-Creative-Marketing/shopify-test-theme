@@ -105,6 +105,10 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    <!--Tachyons Custom CSS-->
+    {{ 'tachyons.min.css' | asset_url | stylesheet_tag }}
+    <!--Custom JS-->
+    <script src="{{ 'gradient.min.js' | asset_url }}" defer="defer" crossorigin="anonymous"></script>
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>

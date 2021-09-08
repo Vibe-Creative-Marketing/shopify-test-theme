@@ -1,30 +1,10 @@
 {
   "sections": {
     "image_banner": {
-      "type": "image-banner",
+      "type": "hero-image",
       "settings": {
         "desktop_text_box_position": "flex-end"
-      },
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_label_2": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ]
+      }
     },
     "rich_text": {
       "type": "rich-text",

@@ -1,0 +1,20 @@
+<section id="banner" class="hero-container relative">
+
+<div class="hero-content pa3 absolute z-999 top-0">
+  <div class="hero-item">
+  <picture>
+    <source srcset="{{ store-logo-white.png | asset_url }}" type="image/png">	
+    <img src="{{ store-logo-white.png | asset_url }}" height="500" width="500" alt="{{ image.alt }}">
+  </picture>
+  <a class="tc br3 pa3 grow db bg-white-80 f1-ns f2 fw9 w5 center black hero-item" href="#shop" rel="noopener">
+    shop
+  </a>
+  </div>
+</div>
+
+<div>
+  <canvas id="gradient-canvas" data-js-darken-top data-transition-in class="absolute top-0">
+  </canvas>
+</div>
+{{ end }}
+</section>
